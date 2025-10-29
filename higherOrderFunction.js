@@ -11,6 +11,7 @@ const substraction = (x, y) => {
 //  receive a function as a parameter
 //  return the function result
 const calculator = (a, b, functions) => {
+  console.log('this is calculator');
   return functions(a, b);
 };
 
