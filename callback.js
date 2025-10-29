@@ -1,6 +1,6 @@
 const greet = callback => {
   console.log('hello from greet');
-  callback();
+  return callback();
 };
 
 const afterGreet = () => {
